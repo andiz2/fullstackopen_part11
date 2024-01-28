@@ -19,7 +19,7 @@ and Amazon S3.
 This service offers parallel execution to increase the speed of the workflow.
 Status notifications can be send to team members via Amazon SNS.
 
-Noticing that our service is built in Java best fit for it would be Jenkins.
+Noticing that our service is built in Python best fit for it would be Jenkins.
 Speaking to a hosting solution I would say a cloud-based one is the best fit.
 You can use Amazon Elastic Compute Cloud(Amazon EC2) to deploy a Jenkins
 application on AWS
