@@ -13,10 +13,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: See proj path
+        run: pwd; ls -la
       - name: Access proj path
         run: cd /part11/11_2/full-stack-open-pokedex
       - name: Show files
-        run: ls -ls
+        run: ls -la
       - name: Install dependencies
         run: npm install
       - name: Check style
