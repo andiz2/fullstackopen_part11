@@ -19,7 +19,7 @@ jobs:
           cd not_again/full-stack-open-pokedex
           pwd
           ls -a
-          echo "Hello World! 2" 
+          echo "Hello World! 23" 
           ls -a 
           npm install
       - name: Check style
