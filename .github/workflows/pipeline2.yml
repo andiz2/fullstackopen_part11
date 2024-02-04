@@ -14,6 +14,6 @@ jobs:
         with:
           node-version: '20'
       - name: Install dependencies
-        run: ls -a ;cd not_again; ls -a;cd full-stack-open-pokedex; pwd; ls -a;cd full-stack-open-pokedex ; ls -a ; npm install
+        run: ls -a ;cd not_again; ls -a;cd full-stack-open-pokedex; pwd; ls -a;echo "Hello World! 2" ; ls -a ; npm install
       - name: Check style
         run: cd not_again;cd full-stack-open-pokedex; npm run eslint
