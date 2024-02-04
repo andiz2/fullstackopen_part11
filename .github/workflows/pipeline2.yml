@@ -8,6 +8,9 @@ on:
 jobs:
   simple_deployment_pipeline:
     runs-on: ubuntu-20.04
+    defaults:
+      run:
+        working-directory: not_again/full-stack-open-pokedex
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -16,15 +19,10 @@ jobs:
       - name: Install dependencies
         run: |
           ls -a
-          cd not_again
           pwd
-          ls -a
-          cd full-stack-open-pokedex
-          pwd
-          ls -a
           echo "Hello World! 23"
           ls -a
-          npm install --prefix ./  # Specify the path to package.json
+          npm install
       - name: Check style
         run: |
           cd not_again/full-stack-open-pokedex
