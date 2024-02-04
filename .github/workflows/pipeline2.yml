@@ -24,7 +24,7 @@ jobs:
           ls -a
           echo "Hello World! 23"
           ls -a
-          npm install
+          npm install --prefix ./  # Specify the path to package.json
       - name: Check style
         run: |
           cd not_again/full-stack-open-pokedex
