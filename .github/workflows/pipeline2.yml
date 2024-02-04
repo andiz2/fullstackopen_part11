@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: Fetch forked repository
+        run: git fetch origin main
       - name: Install dependencies
         run: |
           ls -a
