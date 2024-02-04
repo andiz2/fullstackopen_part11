@@ -26,3 +26,10 @@ jobs:
         run: |
           cd not_again/full-stack-open-pokedex
           npm run eslint
+       - name: Debugging
+        run: |
+          cd not_again/full-stack-open-pokedex
+          pwd
+          ls -a
+          cat package.json  # Print the content of package.json
+          npm install
