@@ -1,0 +1,3 @@
+[submodule "not_again/full-stack-open-pokedex"]
+	path = not_again/full-stack-open-pokedex
+	url = https://github.com/fullstack-hy2020/full-stack-open-pokedex.git
